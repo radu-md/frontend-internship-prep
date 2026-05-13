@@ -2,6 +2,23 @@
 
 This repository is a beginner-friendly learning path for preparing for a **Frontend Development Internship with Angular**.
 
+## Quick navigation
+
+| # | Module | Topic |
+|---|--------|-------|
+| 01 | [Internet, HTML & CSS](01-internet-html-css/) | How the web works, HTML structure, CSS styling |
+| 02 | [JavaScript Basics](02-javascript-basics/) | Variables, arrays, objects, functions, loops |
+| 03 | [JavaScript & the DOM](03-javascript-dom/) | Selecting elements, events, async, localStorage |
+| 04 | [JavaScript Algorithms](04-javascript-algorithms/) | Sorting, searching, grouping, reduce, chaining |
+| 05 | [TypeScript & OOP](05-typescript-oop/) | Types, interfaces, classes, encapsulation |
+| 06 | [Angular Basics](06-angular-basics/) | Components, templates, directives, pipes |
+| 07 | [Angular Next Steps](07-angular-next-steps/) | Services, routing, forms, HTTP, observables |
+| 08 | [Easy Algorithms](08-algorithms-easy/) | Interview puzzles: reverse, palindrome, FizzBuzz |
+| 09 | [Final Mini Project](09-final-mini-project/) | Build and present a small Angular app |
+| — | [Interview Prep](interview-prep/) | Common questions, JavaScript, Angular, HR |
+
+---
+
 It is designed for step-by-step learning, with small theory notes, practical exercises, mini challenges, and simple validations.
 
 The goal of this repository is not to become an advanced Angular developer quickly.
