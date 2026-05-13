@@ -73,6 +73,44 @@ Example for module `01-internet-html-css`:
 
 ## How to get started (Git setup)
 
+### Git basics — what you need to know first
+
+Git is a tool that saves the history of your code. Every change you make can be saved as a "commit" so you can always go back.
+
+**Key concepts:**
+
+| Term | What it means |
+|------|---------------|
+| **repository (repo)** | A folder tracked by Git — all your files + their full history |
+| **commit** | A saved snapshot of your changes with a short message describing what you did |
+| **branch** | An independent line of work — lets you experiment without breaking anything |
+| **clone** | Download a copy of a remote repository to your computer |
+| **fork** | Your own personal copy of someone else's repository on GitHub |
+| **push** | Upload your local commits to GitHub |
+| **pull / fetch** | Download new changes from GitHub to your computer |
+| **remote** | A link to a repository on GitHub (e.g. `origin` = your fork, `upstream` = the original) |
+
+**The most used commands:**
+
+```bash
+git status                        # See which files changed
+git add .                         # Stage all changes (ready to commit)
+git add filename.md               # Stage a specific file only
+git commit -m "your message"      # Save a snapshot with a description
+git push                          # Upload commits to GitHub
+git pull                          # Download latest changes from GitHub
+git log --oneline                 # See recent commits in one line each
+```
+
+**Good commit message habits:**
+```bash
+git commit -m "Complete module 01 theory"      # ✅ clear and specific
+git commit -m "fix"                            # ❌ too vague
+git commit -m "done"                           # ❌ says nothing useful
+```
+
+---
+
 **Step 1 — Fork this repository**
 
 Click the **Fork** button at the top right of this page on GitHub.
