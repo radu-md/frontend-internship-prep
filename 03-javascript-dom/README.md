@@ -14,3 +14,9 @@ Learn how to select and modify HTML elements with JavaScript, handle user events
 ---
 
 [← Back to main README](../README.md)
+
+## Try it online
+
+[![Open in JSFiddle](https://img.shields.io/badge/Try%20it-JSFiddle-blue?logo=jsfiddle)](https://jsfiddle.net/)
+
+Use JSFiddle to write JavaScript and see it interact with HTML elements directly in your browser.

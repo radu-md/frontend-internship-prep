@@ -14,3 +14,9 @@ Build a small Angular application to bring together everything you have learned,
 ---
 
 [← Back to main README](../README.md)
+
+## Try it online
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/angular)
+
+Use StackBlitz to build and run your Task Manager Angular project entirely in the browser.

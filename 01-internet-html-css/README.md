@@ -15,3 +15,9 @@ Learn how the web works, how to structure a page with HTML, and how to style it 
 ---
 
 [← Back to main README](../README.md)
+
+## Try it online
+
+[![Open in CodePen](https://img.shields.io/badge/Try%20it-CodePen-black?logo=codepen)](https://codepen.io/pen/)
+
+Use CodePen to experiment with HTML and CSS directly in your browser — no installation needed.

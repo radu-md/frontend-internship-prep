@@ -15,3 +15,9 @@ Learn practical JavaScript patterns used in real projects: sorting, searching, d
 ---
 
 [← Back to main README](../README.md)
+
+## Try it online
+
+[![Open in JSFiddle](https://img.shields.io/badge/Try%20it-JSFiddle-blue?logo=jsfiddle)](https://jsfiddle.net/)
+
+Use JSFiddle to test sorting, filtering, and grouping functions directly in your browser.

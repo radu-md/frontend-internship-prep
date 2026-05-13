@@ -14,3 +14,9 @@ Go deeper into Angular: services, dependency injection, routing, forms, HTTP req
 ---
 
 [← Back to main README](../README.md)
+
+## Try it online
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/angular)
+
+Use StackBlitz to build services, routing, and HTTP features in a full Angular project — no installation needed.

@@ -15,3 +15,9 @@ Learn the core building blocks of JavaScript: variables, arrays, objects, functi
 ---
 
 [← Back to main README](../README.md)
+
+## Try it online
+
+[![Open in JSFiddle](https://img.shields.io/badge/Try%20it-JSFiddle-blue?logo=jsfiddle)](https://jsfiddle.net/)
+
+Use JSFiddle to write and run JavaScript directly in your browser — no installation needed.

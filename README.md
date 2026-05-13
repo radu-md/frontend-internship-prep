@@ -1,5 +1,9 @@
 # Frontend Internship Prep
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/radu-md/frontend-internship-prep)
+
+> Click the badge above to open the entire repo in a browser-based VS Code — no installation needed.
+
 This repository is a beginner-friendly learning path for preparing for a **Frontend Development Internship with Angular**.
 
 ## Quick navigation

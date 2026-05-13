@@ -15,3 +15,9 @@ Learn the core building blocks of Angular: components, templates, directives, pi
 ---
 
 [← Back to main README](../README.md)
+
+## Try it online
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/angular)
+
+Use StackBlitz to run a full Angular project in your browser — no installation needed.
