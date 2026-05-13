@@ -198,13 +198,22 @@ A topic is “good enough” when it can be:
 
 ## External learning resources
 
-These resources are already useful as support materials:
+These resources are useful as support materials:
 
 - Git: https://www.w3schools.com/git/
 - OOP / Programming basics: https://www.w3schools.com/programming/index.php
 - JavaScript: https://www.w3schools.com/js/default.asp
+- Angular: https://www.w3schools.com/angular/default.asp
 
-These resources support the learning path, but this repository gives the order, focus, and practice structure.
+Important:
+This learning path focuses on **modern Angular**, not **AngularJS**.
+
+- **AngularJS** is the older framework, also known as Angular 1.x
+- **Angular** usually means the modern framework (Angular 2+), which is what most internship and job descriptions refer to today
+
+For this repository and interview preparation, the recommended Angular resource is:
+
+- https://www.w3schools.com/angular/default.asp
 
 ---
 
