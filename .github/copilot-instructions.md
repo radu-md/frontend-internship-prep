@@ -25,21 +25,22 @@ Modules must be studied strictly in order:
 01-internet-html-css/
 02-javascript-basics/
 03-javascript-dom/
-04-typescript-oop/
-05-angular-basics/
-06-angular-next-steps/
-07-algorithms-easy/
-08-final-mini-project/
+04-javascript-algorithms/
+05-typescript-oop/
+06-angular-basics/
+07-angular-next-steps/
+08-algorithms-easy/
+09-final-mini-project/
 interview-prep/
 progress-checklist.md
 ```
 
 The `interview-prep/` folder contains:
 
-- `common-questions.md`
-- `hr-questions.md`
-- `angular-questions.md`
-- `javascript-questions.md`
+- `01-common-questions.md`
+- `02-javascript-questions.md`
+- `03-angular-questions.md`
+- `04-hr-questions.md`
 
 ---
 
@@ -47,35 +48,43 @@ The `interview-prep/` folder contains:
 
 Every module follows the **same internal structure**. When adding content to any module, create these files:
 
-| File                | Purpose                                                                  |
+| File | Purpose |
 | ------------------- | ------------------------------------------------------------------------ |
-| `theory.md`         | Short plain-language explanation of the concept with minimal examples    |
-| `terminology.md`    | Glossary — one term, one simple explanation, one tiny example            |
-| `exercises.md`      | Small focused tasks: fill-in-code, modify examples, write tiny functions |
-| `mini-challenge.md` | One slightly bigger task combining concepts from the module              |
-| `validation.md`     | Self-check questions the learner answers themselves                      |
+| `01-theory.md`         | Short plain-language explanation of the concept with minimal examples    |
+| `02-terminology.md`    | Glossary — one term, one simple explanation, one tiny example            |
+| `03-exercises.md`      | Small focused tasks: fill-in-code, modify examples, write tiny functions |
+| `04-mini-challenge.md` | One slightly bigger task combining concepts from the module              |
+| `05-validation.md`     | Self-check questions the learner answers themselves                      |
 
-Each file should be completable in **10–30 minutes**. Prefer many short files over one long file.
+Files are numbered so the learner always knows what to open next. Always follow the `01-` → `05-` order when creating new files. Each file should be completable in **10–30 minutes**.
 
-The `04-typescript-oop/` module uses `oop-cheatsheet.md` instead of `terminology.md`.  
-The `08-final-mini-project/` module uses `brief.md`, `steps.md`, `checklist.md`, `presentation-guide.md`.
+Modules without a terminology file skip `02-terminology.md` and renumber the rest:
+- `03-javascript-dom`: `01-theory` → `02-exercises` → `03-mini-challenge` → `04-validation`
+- `07-angular-next-steps`: `01-theory` → `02-exercises` → `03-mini-challenge` → `04-validation`
+- `08-algorithms-easy`: `01-theory` → `02-exercises` → `03-solutions` → `04-validation`
+
+The `05-typescript-oop/` module uses `02-oop-cheatsheet.md` instead of `02-terminology.md`.  
+The `09-final-mini-project/` module uses `01-brief.md`, `02-steps.md`, `03-checklist.md`, `04-presentation-guide.md`.
 
 ---
 
-## 8-week learning rhythm
+## 9-week learning rhythm
 
-| Week | Module                          | Focus                                                        |
-| ---- | ------------------------------- | ------------------------------------------------------------ |
-| 1    | `01-internet-html-css`          | What frontend is, HTML, CSS, layout, responsive basics       |
-| 2    | `02-javascript-basics`          | Variables, arrays, objects, functions, loops, DOM basics     |
-| 3    | `03-javascript-dom`             | Deeper JS, async/await, localStorage, simple algorithms      |
-| 4    | `04-typescript-oop`             | TypeScript basics, OOP vocabulary for interviews             |
-| 5    | `05-angular-basics`             | Components, templates, directives, pipes, CLI                |
-| 6    | `06-angular-next-steps`         | Services, routing, forms, HTTP, @Input/@Output               |
-| 7    | `interview-prep` + mini project | Convert learning into interview answers, build final project |
-| 8    | Revision                        | Mock interviews, algorithm review, project presentation      |
+| Week | Module                          | Focus                                                              |
+| ---- | ------------------------------- | ------------------------------------------------------------------ |
+| 1    | `01-internet-html-css`          | What frontend is, HTML, CSS, layout, responsive basics             |
+| 2    | `02-javascript-basics`          | Variables, arrays, objects, functions, loops, DOM basics           |
+| 3    | `03-javascript-dom`             | Deeper JS, async/await, localStorage, beginner problem solving     |
+| 4    | `04-javascript-algorithms`      | Sorting, searching, grouping, reduce, chaining — practical patterns |
+| 5    | `05-typescript-oop`             | TypeScript basics, OOP vocabulary for interviews                   |
+| 6    | `06-angular-basics`             | Components, templates, directives, pipes, CLI                      |
+| 7    | `07-angular-next-steps`         | Services, routing, forms, HTTP, @Input/@Output                     |
+| 8    | `08-algorithms-easy` + `09-final-mini-project` | Interview algorithm prep + build final project    |
+| 9    | `interview-prep` + Revision     | Mock interviews, project presentation, terminology review          |
 
-Algorithms appear in **Week 3** (not earlier) — the learner needs UI/JS confidence first.
+`04-javascript-algorithms` covers **practical JS patterns** used in real code (sort, search, reduce, chaining).
+`08-algorithms-easy` covers **interview puzzle problems** (palindrome, FizzBuzz, reverse string).
+These two modules are complementary, not redundant.
 
 ---
 

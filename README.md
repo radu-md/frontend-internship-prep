@@ -49,6 +49,76 @@ This repository uses a **micro-learning** style:
 
 ---
 
+## How to use each module
+
+Every file inside a module is **numbered** to show the reading order.
+
+Example for module `01-internet-html-css`:
+
+```
+01-theory.md          ← start here: read the theory
+02-terminology.md     ← learn the key words
+03-exercises.md       ← practice with small tasks
+04-mini-challenge.md  ← build something slightly bigger
+05-validation.md      ← check your own understanding
+```
+
+**Rules:**
+- Always open files in number order — do not skip ahead
+- Do not move to the next module before completing `05-validation.md`
+- In the validation file, answer honestly — if you cannot answer a question, go back and review
+- A topic is ready when you can explain it simply, without reading notes
+
+---
+
+## How to get started (Git setup)
+
+**Step 1 — Fork this repository**
+
+Click the **Fork** button at the top right of this page on GitHub.
+This creates your own personal copy of the repository under your account.
+You will do all your work in your fork — the original stays clean.
+
+**Step 2 — Clone your fork to your computer**
+
+```bash
+git clone https://github.com/YOUR-USERNAME/frontend-internship-prep.git
+cd frontend-internship-prep
+```
+
+Replace `YOUR-USERNAME` with your GitHub username.
+
+**Step 3 — Connect to the original repository (to receive new modules)**
+
+```bash
+git remote add upstream https://github.com/radu-md/frontend-internship-prep.git
+```
+
+This lets you pull new content when the mentor adds new modules.
+
+**Step 4 — Start working**
+
+Open the folders in order, read the files by number, and complete the exercises.
+When you finish a file or exercise, commit and push your work:
+
+```bash
+git add .
+git commit -m "Complete module 01 exercises"
+git push
+```
+
+**Step 5 — Get new modules from the mentor**
+
+When the mentor adds new content, sync it to your fork:
+
+```bash
+git fetch upstream
+git merge upstream/main
+git push
+```
+
+---
+
 ## Study order
 
 Follow the modules in order:
@@ -56,12 +126,13 @@ Follow the modules in order:
 1. `01-internet-html-css`
 2. `02-javascript-basics`
 3. `03-javascript-dom`
-4. `04-typescript-oop`
-5. `05-angular-basics`
-6. `06-angular-next-steps`
-7. `07-algorithms-easy`
-8. `08-final-mini-project`
-9. `interview-prep`
+4. `04-javascript-algorithms`
+5. `05-typescript-oop`
+6. `06-angular-basics`
+7. `07-angular-next-steps`
+8. `08-algorithms-easy`
+9. `09-final-mini-project`
+10. `interview-prep`
 
 Do not rush.
 It is better to complete each module well than to read everything quickly.
@@ -118,7 +189,17 @@ Learn:
 - changing page content with JavaScript
 - simple interactive UI behavior
 
-### 04 - TypeScript and OOP
+### 04 - JavaScript Algorithms and Common Patterns
+Learn:
+- sorting arrays (numbers and objects)
+- searching with find, findIndex, some, every
+- removing duplicates
+- grouping data
+- transforming data with reduce
+- chaining array methods
+- common string patterns
+
+### 05 - TypeScript and OOP
 Learn:
 - TypeScript basics
 - types
@@ -130,7 +211,7 @@ Learn:
 - inheritance
 - simple OOP terminology
 
-### 05 - Angular Basics
+### 06 - Angular Basics
 Learn:
 - Angular project structure
 - components
@@ -142,7 +223,7 @@ Learn:
 - directives
 - pipes
 
-### 06 - Angular Next Steps
+### 07 - Angular Next Steps
 Learn:
 - services
 - dependency injection
@@ -152,7 +233,7 @@ Learn:
 - observables basics
 - component communication
 
-### 07 - Easy Algorithms
+### 08 - Easy Algorithms
 Learn:
 - simple coding exercises for interview confidence
 - string exercises
@@ -160,7 +241,7 @@ Learn:
 - object exercises
 - basic logic building
 
-### 08 - Final Mini Project
+### 09 - Final Mini Project
 Build one small Angular project to practice:
 - structure
 - components
